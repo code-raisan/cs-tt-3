@@ -21,9 +21,8 @@ var shapes = [
     [ 0, 1, 0, 0,
       1, 1, 1 ]
 ];
-var colors = [
-    'cyan', 'orange', 'blue', 'yellow', 'red', 'green', 'purple'
-];
+var colors = new Array(7).fill("green");
+
 
 // creates a new 4x4 shape in global variable 'current'
 // 4x4 so as to cover the size when the shape is rotated
